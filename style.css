@@ -1,0 +1,42 @@
+
+.navbar 	{ display: flex;
+			justify-content: space-around;
+			background-color: green;
+			padding: 4px
+ }
+
+.content 	{display: flex;
+			flex-wrap: wrap; 
+			justify-content: center;
+			background-color: lightGreen;
+}
+.content>p {display: flex;
+			flex-wrap: wrap; 
+			justify-content: center;
+			width: 100%
+
+}
+.news 		{width:33%;
+			background-color: lightGreen;
+}
+#breaking{
+	display: flex;
+	font-size: 20px;
+	order: -1;
+	flex-direction: column;
+	width: 50%;
+
+}
+#breaking>h3{
+	display: flex;
+	width: 100%;
+	order: -2;
+	font-size: 50px;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+h1 {
+    width: 54%;
+    text-align: center;
+
+}
